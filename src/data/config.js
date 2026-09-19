@@ -3,8 +3,8 @@
 // WhatsApp number in international format, no + or spaces, e.g. "919876543210"
 export const WHATSAPP_NUMBER = "919831120804";
 
-export const INSTAGRAM_HANDLE = "trenvogue";
-export const INSTAGRAM_URL = "https://instagram.com/trenvogue";
+export const INSTAGRAM_HANDLE = "trenvogueofficial";
+export const INSTAGRAM_URL = "https://www.instagram.com/trenvogueofficial/";
 
 // Auto-syncing Instagram feed (see README "Instagram auto-sync" section
 // for the 2-minute free setup). Leave as null to hide the feed section
