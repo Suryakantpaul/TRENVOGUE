@@ -56,11 +56,20 @@ export default function CustomerReviews() {
               <div className="flex items-center justify-between gap-3 mb-3">
                 <div className="flex items-center gap-3">
                   <span className="review-avatar">{review.initials}</span>
-                  <span className="font-semibold text-ink">{review.name}</span>
+                  <div>
+                    <div className="font-semibold text-ink">{review.name}</div>
+                    <div className="text-[10px] uppercase tracking-[0.2em] text-tobacco">
+                      Verified buyer • {review.location}
+                    </div>
+                  </div>
                 </div>
                 <span className="text-tobacco tracking-widest" aria-label={`${review.rating} out of 5 stars`}>
                   {"★".repeat(review.rating)}
                 </span>
+              </div>
+
+              <div className="mb-3 text-[10px] uppercase tracking-[0.18em] text-ink/55">
+                {review.product}
               </div>
               <p className="text-ink/70 leading-relaxed">“{review.text}”</p>
             </div>
