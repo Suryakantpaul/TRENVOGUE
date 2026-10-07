@@ -5,6 +5,7 @@
 import mustardTrident from "../assets/products/mustard-trident-tee.jpg";
 import blackTrident from "../assets/products/black-trident-tee.jpg";
 import f1Tee from "../assets/products/f1-tee.jpg";
+import samuraiFireTee from "../assets/products/samurai-fire-tee.jpeg";
 
 export const products = [
   {
@@ -42,5 +43,17 @@ export const products = [
     description:
       "Oversized black tee with an F1 front graphic and racing stripes running down to a car outline print. Heavyweight cotton.",
     image: f1Tee,
+  },
+  {
+    id: "tv-samurai-fire",
+    name: "Samurai Fire Oversized Tee",
+    price: 649,
+    mrp: 999,
+    tag: "New Launch",
+    colors: ["Black"],
+    sizes: ["M", "L", "XL", "XXL"],
+    description:
+      "A single fire-themed samurai oversized tee inspired by the mockup you shared, built in heavyweight cotton with a bold statement graphic.",
+    image: samuraiFireTee,
   },
 ];

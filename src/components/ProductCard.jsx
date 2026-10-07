@@ -31,7 +31,7 @@ export default function ProductCard({ product, index = 0 }) {
         onPointerMove={handlePointerMove}
         onPointerLeave={resetPointer}
       >
-        <div className="relative overflow-hidden bg-paper/70 aspect-[4/5] border border-ink/10">
+        <div className="relative overflow-hidden bg-white/5 aspect-[4/5] transition-shadow duration-500 group-hover:shadow-[0_0_45px_8px_rgba(201,255,61,0.35)]">
           <img
             src={product.image}
             alt={product.name}
