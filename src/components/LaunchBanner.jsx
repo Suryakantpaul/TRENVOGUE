@@ -7,7 +7,7 @@ export default function LaunchBanner() {
   if (!visible) return null;
 
   return (
-    <div className="launch-banner relative z-30 bg-lime text-ink px-10 py-2.5 text-center text-xs sm:text-sm font-semibold">
+    <div className="launch-banner relative z-30 bg-accent text-ink px-10 py-2.5 text-center text-xs sm:text-sm font-semibold">
       <span>First drop is live. Order directly on WhatsApp for personal help.</span>{" "}
       <Link to="/shop" className="underline underline-offset-4 hover:text-tobacco transition-colors">
         Shop the collection

@@ -28,7 +28,7 @@ export default function Product() {
       <div className="pt-40 pb-24 max-w-3xl mx-auto px-6 text-center">
         <h1 className="font-display text-3xl mb-4">Tee not found</h1>
         <p className="text-stone mb-8">This one may have sold out or moved.</p>
-        <Link to="/shop" className="text-lime font-medium hover:underline">
+        <Link to="/shop" className="text-accent font-medium hover:underline">
           Back to shop
         </Link>
       </div>
@@ -75,7 +75,7 @@ export default function Product() {
           transition={{ duration: 0.5, delay: 0.1 }}
         >
           {product.tag && (
-            <span className="inline-block bg-lime text-ink text-xs font-semibold px-2.5 py-1 mb-4">
+            <span className="inline-block bg-accent text-ink text-xs font-semibold px-2.5 py-1 mb-4">
               {product.tag}
             </span>
           )}
@@ -114,8 +114,8 @@ export default function Product() {
                     onClick={() => setColor(c)}
                     className={`px-4 py-2 text-sm border transition-colors ${
                       color === c
-                        ? "bg-lime text-ink border-lime"
-                        : "border-ink/20 text-ink/75 hover:border-lime"
+                        ? "bg-accent text-ink border-accent"
+                        : "border-ink/20 text-ink/75 hover:border-accent"
                     }`}
                   >
                     {c}
@@ -137,8 +137,8 @@ export default function Product() {
                   onClick={() => setSize(s)}
                   className={`w-12 h-12 text-sm font-medium border transition-colors ${
                     size === s
-                      ? "bg-lime text-ink border-lime"
-                      : "border-ink/20 text-ink/75 hover:border-lime"
+                      ? "bg-accent text-ink border-accent"
+                      : "border-ink/20 text-ink/75 hover:border-accent"
                   }`}
                 >
                   {s}

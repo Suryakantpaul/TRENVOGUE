@@ -16,7 +16,7 @@ export default function About() {
         <motion.p
           initial={{ opacity: 0, y: 10 }}
           animate={{ opacity: 1, y: 0 }}
-          className="text-lime text-sm font-medium mb-3"
+          className="text-accent text-sm font-medium mb-3"
         >
           Our story
         </motion.p>
@@ -71,7 +71,7 @@ export default function About() {
           </motion.p>
           <Link
             to="/shop"
-            className="inline-block bg-lime text-ink font-semibold px-8 py-4 hover:bg-paper transition-colors"
+            className="inline-block bg-accent text-ink font-semibold px-8 py-4 hover:bg-paper transition-colors"
           >
             Explore the collection
           </Link>

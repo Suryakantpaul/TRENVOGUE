@@ -10,7 +10,7 @@ export default function Contact() {
       <motion.p
         initial={{ opacity: 0, y: 10 }}
         animate={{ opacity: 1, y: 0 }}
-        className="text-lime text-sm font-medium mb-3"
+        className="text-accent text-sm font-medium mb-3"
       >
         Get in touch
       </motion.p>
@@ -84,7 +84,7 @@ export default function Contact() {
         className="text-stone text-sm mt-14"
       >
         Placed an order already? Share your delivery address on{" "}
-        <a href={buildWhatsAppLink("Hi, I'd like to share my delivery details for my order.")} target="_blank" rel="noreferrer" className="text-lime hover:underline">
+        <a href={buildWhatsAppLink("Hi, I'd like to share my delivery details for my order.")} target="_blank" rel="noreferrer" className="text-accent hover:underline">
           WhatsApp
         </a>{" "}
         and we'll take it from there.

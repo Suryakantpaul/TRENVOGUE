@@ -41,7 +41,7 @@ export default function Shop() {
               onClick={() => setActiveColor(c)}
               className={`px-4 py-2 text-sm font-medium border transition-colors ${
                 activeColor === c
-                  ? "bg-lime text-ink border-lime"
+                  ? "bg-accent text-ink border-accent"
                   : "border-ink/20 text-ink/65 hover:border-tobacco hover:text-tobacco"
               }`}
             >

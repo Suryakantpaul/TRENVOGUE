@@ -4,7 +4,7 @@
 @theme {
   --color-ink: #0e0e0e;
   --color-paper: #f5f1e8;
-  --color-lime: #c9ff3d;
+  --color-accent: #ff7043;
   --color-stone: #948a7a;
   --color-flare: #ff4d2e;
   --color-sand: #e8e0d5;
@@ -31,7 +31,7 @@ body {
   left: 0;
   z-index: 60;
   height: 3px;
-  background: var(--color-lime);
+  background: var(--color-accent);
   pointer-events: none;
   transition: width 120ms linear;
 }
@@ -41,7 +41,7 @@ body {
   border-top: 1px solid rgba(14, 14, 14, 0.15);
   border-bottom: 1px solid rgba(14, 14, 14, 0.15);
   background: var(--color-ink);
-  color: var(--color-lime);
+  color: var(--color-accent);
   white-space: nowrap;
 }
 
@@ -152,7 +152,7 @@ body {
   left: 50%;
   z-index: 2;
   padding: 0.4rem 0.65rem;
-  background: var(--color-lime);
+  background: var(--color-accent);
   color: var(--color-ink);
   font-size: 0.65rem;
   font-weight: 700;
@@ -267,7 +267,7 @@ body {
   align-items: center;
   justify-content: center;
   color: var(--color-paper);
-  background: linear-gradient(135deg, rgba(201, 255, 61, 0.86), rgba(154, 120, 94, 0.85)), var(--color-ink);
+  background: linear-gradient(135deg, rgba(255, 112, 67, 0.86), rgba(154, 120, 94, 0.85)), var(--color-ink);
   font-size: 0.7rem;
   font-weight: 700;
   letter-spacing: 0.18em;
@@ -360,7 +360,7 @@ body {
   width: 0.45rem;
   height: 0.45rem;
   border-radius: 999px;
-  background: var(--color-lime);
+  background: var(--color-accent);
   animation: help-dot-pulse 1.8s ease-in-out infinite;
 }
 
@@ -387,8 +387,8 @@ body {
 
 .help-chat-option:hover {
   transform: translateX(4px);
-  background: var(--color-lime);
-  border-color: var(--color-lime);
+  background: var(--color-accent);
+  border-color: var(--color-accent);
 }
 
 .help-size-guide {
@@ -464,7 +464,7 @@ body {
 }
 
 .size-finder-input:focus {
-  outline: 2px solid var(--color-lime);
+  outline: 2px solid var(--color-accent);
   outline-offset: 1px;
 }
 
@@ -584,8 +584,8 @@ details[open] > p {
   width: 0.45rem;
   height: 0.45rem;
   border-radius: 999px;
-  background: #4b9b52;
-  box-shadow: 0 0 0 4px rgba(75, 155, 82, 0.12);
+  background: var(--color-accent);
+  box-shadow: 0 0 0 4px rgba(255, 112, 67, 0.12);
 }
 
 .wishlist-button {
@@ -689,8 +689,8 @@ details[open] > p {
 }
 
 @keyframes help-dot-pulse {
-  0%, 100% { box-shadow: 0 0 0 0 rgba(201, 255, 61, 0.45); }
-  50% { box-shadow: 0 0 0 5px rgba(201, 255, 61, 0); }
+  0%, 100% { box-shadow: 0 0 0 0 rgba(255, 112, 67, 0.45); }
+  50% { box-shadow: 0 0 0 5px rgba(255, 112, 67, 0); }
 }
 
 @keyframes whatsapp-float {
@@ -699,13 +699,13 @@ details[open] > p {
 }
 
 ::selection {
-  background: var(--color-lime);
+  background: var(--color-accent);
   color: var(--color-ink);
 }
 
 a:focus-visible,
 button:focus-visible {
-  outline: 2px solid var(--color-lime);
+  outline: 2px solid var(--color-accent);
   outline-offset: 3px;
 }
 
